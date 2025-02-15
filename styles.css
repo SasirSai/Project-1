@@ -1,0 +1,155 @@
+:root {
+    --primary-color: #1a1a1a;
+    --secondary-color: #333;
+    --accent-color: #e63946;
+    --text-color: #213547;
+    --background-color: #ffffff;
+    --gradient-primary: linear-gradient(135deg, #e63946, #f72585);
+    --transition-speed: 0.3s;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    line-height: 1.6;
+  }
+  
+  .navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: rgba(255, 255, 255, 0.95);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+  }
+  
+  .nav-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: var(--primary-color);
+  }
+  
+  .nav-links a {
+    margin-left: 2rem;
+    text-decoration: none;
+    color: var(--secondary-color);
+    transition: color var(--transition-speed) ease;
+  }
+  
+  .nav-links a:hover {
+    color: var(--accent-color);
+  }
+  
+  .hero {
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+
+.hero img {
+    width: 100%;
+    height: auto;
+}
+
+.overlay-text {
+    position: absolute;
+    top: 10%; /* Adjust this value as needed to position the text lower or higher */
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.overlay-text h1 {
+    font-size: 4rem;
+    margin-bottom: 1rem;
+}
+
+.overlay-text p {
+    font-size: 1.5rem;
+}
+
+
+
+
+.hero img {
+    width: 100%;
+    height: auto;
+}
+
+.overlay-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.overlay-text h1 {
+    font-size: 4rem;
+    margin-bottom: 1rem;
+}
+
+.overlay-text p {
+    font-size: 1.5rem;
+}
+
+  
+  
+  .hero-content {
+    position: relative;
+    z-index: 1;
+    padding: 2rem;
+  }
+  
+  .hero-content h1 {
+    font-size: 4rem;
+    margin-bottom: 1rem;
+  }
+  
+  .cta-button {
+    display: inline-block;
+    padding: 1rem 2rem;
+    background: var(--gradient-primary);
+    color: white;
+    text-decoration: none;
+    border-radius: 50px;
+    font-weight: bold;
+    transition: transform var(--transition-speed);
+  }
+  
+  .cta-button:hover {
+    transform: translateY(-2px);
+  }
+  
+  .about, .types, .showroom, .events, .contacts {
+    padding: 6rem 0;
+    text-align: center;
+  }
+  
+  footer {
+    background-color: var(--primary-color);
+    color: white;
+    text-align: center;
+    padding: 2rem 0;
+  }
+  
