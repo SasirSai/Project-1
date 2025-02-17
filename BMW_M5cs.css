@@ -1,0 +1,47 @@
+*{
+    padding:0;
+    margin:0;
+}
+body{
+    background-image: url('C:Users\prabh\Downloads\BMWbackground.jpeg') no-repeat center top;
+}
+.navbar ul{
+    background-color: #0a0a37;
+    list-style:none;
+    font-family: sans-serif;
+    overflow: hidden;
+}
+.navbar li{
+    align-items: right;
+    padding: 20px 32px; 
+    float:right;
+}
+.navbar a{
+    text-decoration: none;
+    text-align: right;
+
+    color: #ffffff;
+    display: block;
+}
+.navbar a:hover{
+    color:#125490;
+}
+h1{
+    margin:80px 90px 0px 110px;
+    padding:80px 90px 0px 110px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 92px;
+    font-weight:700 ;
+    text-align: center;
+    vertical-align: center;
+}
+#Intro{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    position:absolute;
+    top: 330px;
+    left: 330px;
+    right: 300px;
+    text-align: center;
+    align-items: center;
+}
